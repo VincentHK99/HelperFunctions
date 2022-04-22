@@ -2,7 +2,6 @@
 from bs4 import BeautifulSoup
 import requests
 import tensorflow as tf
-import pandas as pd
 import matplotlib.pyplot as plt 
 import numpy as np
 
