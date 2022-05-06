@@ -39,6 +39,8 @@ def get_soup(url,parser='html.parser',print_soup=False,timeout=10):
   except:
     # the the user know if the requests package did not work
     print('An exception occurred. Perhaps the URL entered is incorrect')
+   
+  return soup
     
 ##################################################
 ### TIME SERIES DEEP LEARNING HELPER FUNCTIONS ###
@@ -62,7 +64,7 @@ def mean_absolute_scaled_error(y_true, y_pred):
 
  return mae / mae_naive_no_season
   
-  return soup
+
 
 """
 PLOT TIME SERIES
